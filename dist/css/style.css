@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+.wrapper{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+.slider-container{
+	color: #fff;
+}
+.slider-item{
+	min-height: 150px;
+	line-height: 150px; 
+	font-size: 30px;
+}
+.slider-item:nth-child(3n+1){
+	 background-color: red;
+}
+.slider-item:nth-child(3n+2){
+	background-color: green;
+}
+.slider-item:nth-child(3n+3){
+	background-color: blue;
+}
+.slider-buttons{
+	text-align: center;
+}
